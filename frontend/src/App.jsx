@@ -125,10 +125,14 @@ function App() {
             <button onClick={() => scrollToSection('projets')} className="px-8 py-4 bg-white/5 border border-white/10 text-white font-black rounded-2xl hover:bg-white/10 transition-all text-xs uppercase tracking-widest">Mes Travaux</button>
           </div>
         </div>
-        <div className="relative group w-64 h-64 md:w-96 md:h-96">
-          <div className="absolute inset-0 bg-gradient-to-tr from-emerald-500 to-blue-500 blur-2xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
-          <div className="relative w-full h-full rounded-3xl overflow-hidden border border-white/10 grayscale hover:grayscale-0 transition-all duration-700">
-            <img src="/profile.jpg" alt="Profile" className="w-full h-full object-cover scale-110" />
+
+        {/* --- IMAGE DE PROFIL AVEC ANIMATION CERCLE MULTICOLORE --- */}
+        <div className="relative group w-64 h-64 md:w-96 md:h-96 flex items-center justify-center">
+          {/* Cercle animé multicolore */}
+          <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-500 via-cyan-400 to-blue-500 animate-spin duration-[3s] opacity-70 blur-md"></div>
+          {/* Image de profil */}
+          <div className="relative w-[95%] h-[95%] rounded-full overflow-hidden border-4 border-[#020617] z-10">
+            <img src="/profile.jpg" alt="Profile" className="w-full h-full object-cover" />
           </div>
         </div>
       </section>
@@ -156,7 +160,6 @@ function App() {
       {/* --- SECTION SKILLS + BUT --- */}
       <section id="skills" className="max-w-7xl mx-auto px-6 py-24 bg-white/[0.01]">
         <div className="flex flex-col lg:flex-row gap-16">
-          {/* LE BUT (OBJECTIF) */}
           <div className="lg:w-1/3 space-y-6">
             <h2 className="text-xs font-black text-blue-500 uppercase tracking-[0.5em]">Mon Objectif</h2>
             <h3 className="text-3xl md:text-5xl font-black text-white leading-tight italic uppercase tracking-tighter">Propulser vos <span className="text-blue-500">Visions</span> vers le digital</h3>
@@ -168,7 +171,6 @@ function App() {
             </div>
           </div>
 
-          {/* LES COMPÉTENCES (MISES À JOUR DEPUIS L'IMAGE) */}
           <div className="lg:w-2/3 grid md:grid-cols-2 gap-8">
             {skillGroups.map((group, i) => (
               <div key={i} className="space-y-8 p-8 rounded-[2.5rem] bg-white/[0.02] border border-white/5">
@@ -196,7 +198,6 @@ function App() {
       <section id="projets" className="max-w-7xl mx-auto px-6 py-24">
         <h2 className="text-xs font-black text-cyan-500 uppercase tracking-[0.5em] mb-12 text-center">Réalisations</h2>
         
-        {/* SCOOTER PRO */}
         <div className="mb-16 grid lg:grid-cols-2 gap-12 items-center bg-white/[0.02] p-8 md:p-12 rounded-[3rem] border border-white/5">
           <div className="space-y-6">
             <span className="text-emerald-500 font-black text-[10px] tracking-widest uppercase">Projet Majeur</span>
@@ -220,7 +221,6 @@ function App() {
           </div>
         </div>
 
-        {/* AUTRES RÉALISATIONS */}
         <div className="grid md:grid-cols-2 gap-8">
           <div className="p-8 md:p-12 rounded-[2.5rem] bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-all group">
             <div className="flex justify-between items-start mb-6">
@@ -242,7 +242,7 @@ function App() {
         </div>
       </section>
 
-      {/* --- SECTION CONTACT (MISE À JOUR SELON MODÈLE) --- */}
+      {/* --- SECTION CONTACT --- */}
       <section id="contact" className="max-w-7xl mx-auto px-6 py-24 mb-20">
         <div className="text-center mb-16">
           <h2 className="text-6xl md:text-9xl font-black text-white mb-4 uppercase tracking-tighter italic leading-none">Let's <span className="text-emerald-500">Connect</span></h2>
@@ -250,12 +250,12 @@ function App() {
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <a href="mailto:elhadari04@gmail.com" className="p-10 rounded-[2.5rem] bg-white/[0.03] border border-white/5 hover:bg-emerald-500/10 hover:border-emerald-500/40 transition-all text-center group">
+          <a href="mailto:randrianarivosafidimijoropatri@gmail.com" className="p-10 rounded-[2.5rem] bg-white/[0.03] border border-white/5 hover:bg-emerald-500/10 hover:border-emerald-500/40 transition-all text-center group">
             <div className="text-2xl mb-4">📧</div>
             <h4 className="text-[9px] font-black uppercase text-slate-500 mb-2 tracking-widest">Email</h4>
             <p className="text-white font-bold group-hover:text-emerald-400 text-xs break-all">randrianarivosafidimijoropatri@gmail.com</p>
           </a>
-          <a href="tel:+261384421815" className="p-10 rounded-[2.5rem] bg-white/[0.03] border border-white/5 hover:bg-cyan-500/10 hover:border-cyan-500/40 transition-all text-center group">
+          <a href="tel:+261344499133" className="p-10 rounded-[2.5rem] bg-white/[0.03] border border-white/5 hover:bg-cyan-500/10 hover:border-cyan-500/40 transition-all text-center group">
             <div className="text-2xl mb-4">📞</div>
             <h4 className="text-[9px] font-black uppercase text-slate-500 mb-2 tracking-widest">Téléphone</h4>
             <p className="text-white font-bold group-hover:text-cyan-400">+261 34 44 991 33</p>
@@ -284,9 +284,21 @@ function App() {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="py-20 text-center border-t border-white/5">
-        <p className="text-[9px] font-black text-slate-600 uppercase tracking-[1em]">© 2026 NAJORO • EXPERT FULLSTACK</p>
+      {/* --- FOOTER AVEC COMPTEUR DE VISITES --- */}
+      <footer className="py-20 text-center border-t border-white/5 space-y-6">
+        <p className="text-[9px] font-black text-slate-600 uppercase tracking-[1em]">
+          © 2026 NAJORO • EXPERT FULLSTACK
+        </p>
+        <div className="flex flex-col items-center gap-3 pt-4">
+          <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest opacity-60">
+            Merci de votre visite ! Vous êtes le visiteur n° :
+          </p>
+          <img 
+            src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fnajoro-portfolio.vercel.app&count_bg=%2310b981&title_bg=%231e293b&icon=&icon_color=%23E7E7E7&title=Visites&edge_flat=false" 
+            alt="Compteur de visites"
+            className="hover:scale-110 transition-transform duration-300"
+          />
+        </div>
       </footer>
 
       {/* MENU MOBILE OVERLAY */}
