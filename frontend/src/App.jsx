@@ -258,7 +258,7 @@ function App() {
           <a href="tel:+261344499133" className="p-10 rounded-[2.5rem] bg-white/[0.03] border border-white/5 hover:bg-cyan-500/10 hover:border-cyan-500/40 transition-all text-center group">
             <div className="text-2xl mb-4">📞</div>
             <h4 className="text-[9px] font-black uppercase text-slate-500 mb-2 tracking-widest">Téléphone</h4>
-            <p className="text-white font-bold group-hover:text-cyan-400">+261 34 44 991 33</p>
+            <p className="text-white font-bold group-hover:text-cyan-400">+261 34 16 991 33</p>
           </a>
           <div className="p-10 rounded-[2.5rem] bg-white/[0.03] border border-white/5 text-center flex flex-col justify-center">
             <div className="text-2xl mb-4 text-red-500">📍</div>
