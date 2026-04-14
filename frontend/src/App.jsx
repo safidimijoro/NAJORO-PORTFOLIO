@@ -271,7 +271,7 @@ function App() {
             <h4 className="text-[9px] font-black uppercase text-slate-500 mb-2 tracking-widest">LinkedIn</h4>
             <p className="text-blue-400 font-bold text-xs uppercase underline">Se connecter</p>
           </a>
-          <a href="#" className="p-10 rounded-[2.5rem] bg-white/[0.03] border border-white/5 hover:bg-blue-600/10 transition-all text-center group">
+          <a href="https://www.facebook.com/najoropatrick.safidimijoropatrick" className="p-10 rounded-[2.5rem] bg-white/[0.03] border border-white/5 hover:bg-blue-600/10 transition-all text-center group">
             <div className="text-2xl mb-4">📘</div>
             <h4 className="text-[9px] font-black uppercase text-slate-500 mb-2 tracking-widest">Facebook</h4>
             <p className="text-white font-bold text-xs uppercase underline">Voir le profil</p>
