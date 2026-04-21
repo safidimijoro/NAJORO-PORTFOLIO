@@ -1,16 +1,22 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Ce projet est un portfolio professionnel développé avec **React** et **Tailwind CSS**. Il présente mon parcours académique à l'EMIT, mes compétences en développement Fullstack, ainsi que mes réalisations majeures comme *Scooter Pro*.
 
-Currently, two official plugins are available:
+## Fonctionnalités
+- **Design Responsive** : Optimisé pour PC, Tablette et Mobile.
+- **Interface Moderne** : Effets de flou (Glassmorphism) et animations fluides.
+- **Navigation Intelligente** : Défilement doux (Smooth scroll) vers les différentes sections.
+- **Compteur de Visites** : Intégration d'un badge de suivi en temps réel.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies
+- **Frontend** : React.js, Tailwind CSS, Lucide React.
+- **Déploiement** : Vercel.
+- **Langages** : JavaScript (ES6+), HTML5, CSS3.
 
-## React Compiler
+## Demo
+Lien : [https://najoro-portfolio.vercel.app](https://najoro-portfolio.vercel.app)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Auteur
+**RANDRIANARIVO Patrick Safidimijoro**
+*Étudiant en L3 DAII - EMIT Fianarantsoa*
