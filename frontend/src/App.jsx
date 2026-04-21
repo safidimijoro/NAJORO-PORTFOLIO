@@ -6,7 +6,7 @@ function App() {
   const [activeImg, setActiveImg] = useState(0);
 
   const scooterScreenshots = [
-    {src:"/login.png",title:"Interface Login"},
+    {src:"/LOGIN.png",title:"Interface Login"},
     { src: "/image.png", title: "Dashboard & Ventes" },
     { src: "/stock.png", title: "Gestion des Stocks" },
     { src: "/credit.png", title: "Suivi des Crédits" },
