@@ -1,7 +1,7 @@
 # Portfolio Website
 
 ## Description
-Ce projet est un portfolio professionnel développé avec **React** et **Tailwind CSS**. Il présente mon parcours académique à l'EMIT, mes compétences en développement Fullstack, ainsi que mes réalisations majeures comme *Scooter Pro*.
+Ce projet est un portfolio  développé avec **React** et **Tailwind CSS**. Il présente mon parcours académique à l'EMIT, mes compétences en développement Fullstack, ainsi que mes réalisations majeures comme *Scooter Pro*.
 
 ## Fonctionnalités
 - **Design Responsive** : Optimisé pour PC, Tablette et Mobile.
@@ -19,4 +19,4 @@ Lien : [https://najoro-portfolio.vercel.app](https://najoro-portfolio.vercel.app
 
 ## Auteur
 **RANDRIANARIVO Patrick Safidimijoro**
-*Étudiant en L3 DAII - EMIT Fianarantsoa*
+*Étudiant en Développement d’applications Internet et Intranet – École de Management et d’Innovation Technologique*
