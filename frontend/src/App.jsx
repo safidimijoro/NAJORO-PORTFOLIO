@@ -36,40 +36,38 @@ function App() {
       title: "Frontend & Web",
       color: "text-emerald-400",
       skills: [
-        { name: "React JS", level: "90%", barColor: "bg-emerald-500" },
-        { name: "JavaScript", level: "90%", barColor: "bg-emerald-400" },
-        { name: "HTML", level: "95%", barColor: "bg-emerald-500" },
-        { name: "CSS", level: "85%", barColor: "bg-emerald-400" },
-        { name: "Tailwind CSS", level: "90%", barColor: "bg-emerald-500" },
+        { name: "React JS", level: "50%", barColor: "bg-emerald-500" },
+        { name: "JavaScript", level: "60%", barColor: "bg-emerald-400" },
+        { name: "HTML", level: "75%", barColor: "bg-emerald-500" },
+        { name: "CSS", level: "65%", barColor: "bg-emerald-400" },
+        { name: "Tailwind CSS", level: "60%", barColor: "bg-emerald-500" },
       ]
     },
     {
       title: "Backend & Logiciel",
       color: "text-blue-400",
       skills: [
-        { name: "Java / Spring Boot", level: "85%", barColor: "bg-blue-600" },
-        { name: "Node.js", level: "80%", barColor: "bg-blue-500" },
-        { name: "PHP", level: "80%", barColor: "bg-blue-400" },
-        { name: "Laravel", level: "80%", barColor: "bg-blue-500" },
-        { name: "Symfony", level: "85%", barColor: "bg-blue-600" },
+        { name: "Java / Spring Boot", level: "65%", barColor: "bg-blue-600" },
+        { name: "Node.js", level: "60%", barColor: "bg-blue-500" },
+        { name: "PHP", level: "60%", barColor: "bg-blue-400" },
+        { name: "Laravel", level: "60%", barColor: "bg-blue-500" },
       ]
     },
     {
       title: "Bases de données",
       color: "text-orange-400",
       skills: [
-        { name: "PostgreSQL", level: "90%", barColor: "bg-orange-500" },
-        { name: "MySQL", level: "85%", barColor: "bg-orange-400" },
-        { name: "SQLite", level: "80%", barColor: "bg-orange-500" },
+        { name: "PostgreSQL", level: "60%", barColor: "bg-orange-500" },
+        { name: "MySQL", level: "60%", barColor: "bg-orange-400" },
+        { name: "SQLite", level: "60%", barColor: "bg-orange-500" },
       ]
     },
     {
       title: "DevOps & Outils",
       color: "text-slate-400",
       skills: [
-        { name: "Docker", level: "60%", barColor: "bg-slate-500" },
+        { name: "Docker", level: "55%", barColor: "bg-slate-500" },
         { name: "GitHub / Git", level: "90%", barColor: "bg-slate-400" },
-        { name: "GitLab", level: "85%", barColor: "bg-slate-500" },
       ]
     }
   ];
@@ -119,7 +117,7 @@ function App() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">Patrick Safidimijoro</span>
           </h1>
           <p className="max-w-xl text-slate-400 text-lg leading-relaxed mx-auto md:mx-0">
-            Développeur <span className="text-white">Fullstack Expert</span>. Déterminé, sérieux et autonome. Je conçois des solutions numériques innovantes en alliant design moderne et performance technique..
+            Développeur <span className="text-white">Fullstack Expert</span>. Déterminé, sérieux et autonome. Je conçois des solutions numériques innovantes en alliant design moderne et performance technique.
           </p>
           <div className="flex flex-wrap justify-center md:justify-start gap-5">
             <button onClick={() => scrollToSection('contact')} className="px-8 py-4 bg-emerald-500 text-black font-black rounded-2xl hover:scale-105 transition-all text-xs uppercase tracking-widest shadow-lg shadow-emerald-500/20">Me Contacter</button>
